@@ -1,7 +1,7 @@
-const express = require('express');
-const { makeWASocket, DisconnectReason, useMultiFileAuthState } = require('@whiskeysockets/baileys');
-const qrcode = require('qrcode');
-const cors = require('cors');
+import express from 'express';
+import { makeWASocket, DisconnectReason, useMultiFileAuthState } from '@whiskeysockets/baileys';
+import qrcode from 'qrcode';
+import cors from 'cors';
 
 const app = express();
 app.use(express.json());
